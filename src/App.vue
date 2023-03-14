@@ -3,7 +3,7 @@
   import { usePokemonStore } from "../src/stores/pokemon";
 
   const pms = usePokemonStore();
-  const src1 = `https://www.serebii.net/scarletviolet/pokemon/new/`;
+  const src1 = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/`;
   const src2 = `.png`;
 
   const extremeSpeed = (spe) => {
@@ -55,7 +55,7 @@
       <tbody v-for="pm in pms.newList">
         <tr class="text-center">
           <td>
-            <img :src="src1 + pm[1].img + src2" alt="" height="40" width="40" />
+            <img :src="src1 + pm[1].img + src2" alt="" height="45" width="45" />
             <br />
             {{ pm[0] }}
           </td>

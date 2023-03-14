@@ -1,6 +1,6 @@
 {
   "皮卡丘": {
-    "img": "025",
+    "img": 25,
     "name": "Pikachu",
     "types": ["Electric"],
     "baseStats": {
@@ -24,7 +24,7 @@
     "eggGroups": ["Field", "Fairy"]
   },
   "雷丘": {
-    "img": "026",
+    "img": 26,
     "name": "Raichu",
     "types": ["Electric"],
     "baseStats": {
@@ -51,7 +51,7 @@
     "tier": "UU"
   },
   "胖可丁": {
-    "img": "040",
+    "img": 40,
     "name": "Wigglytuff",
     "types": ["Normal", "Fairy"],
     "genderRatio": {
@@ -81,7 +81,7 @@
     "tier": "UU"
   },
   "摩魯蛾": {
-    "img": "049",
+    "img": 49,
     "name": "Venomoth",
     "types": ["Bug", "Poison"],
     "baseStats": {
@@ -106,7 +106,7 @@
     "tier": "UU"
   },
   "三地鼠": {
-    "img": "051",
+    "img": 51,
     "name": "Dugtrio",
     "types": ["Ground"],
     "baseStats": {
@@ -133,7 +133,7 @@
     "tier": "UU"
   },
   "貓老大": {
-    "img": "053",
+    "img": 53,
     "name": "Persian",
     "types": ["Normal"],
     "baseStats": {
@@ -160,7 +160,7 @@
     "tier": "UU"
   },
   "哥達鴨": {
-    "img": "055",
+    "img": 55,
     "name": "Golduck",
     "types": ["Water"],
     "baseStats": {
@@ -185,7 +185,7 @@
     "tier": "UU"
   },
   "火爆猴": {
-    "img": "057",
+    "img": 57,
     "name": "Primeape",
     "types": ["Fighting"],
     "baseStats": {
@@ -211,7 +211,7 @@
     "tier": "NFE"
   },
   "風速狗": {
-    "img": "059",
+    "img": 59,
     "name": "Arcanine",
     "types": ["Fire"],
     "genderRatio": {
@@ -243,7 +243,7 @@
     "tier": "UU"
   },
   "呆殼獸": {
-    "img": "080",
+    "img": 80,
     "name": "Slowbro",
     "types": ["Water", "Psychic"],
     "baseStats": {
@@ -270,7 +270,7 @@
     "tier": "UU"
   },
   "三合一磁怪": {
-    "img": "082",
+    "img": 82,
     "name": "Magneton",
     "types": ["Electric", "Steel"],
     "gender": "N",
@@ -297,7 +297,7 @@
     "tier": "NFE"
   },
   "臭臭泥": {
-    "img": "089",
+    "img": 89,
     "name": "Muk",
     "types": ["Poison"],
     "baseStats": {
@@ -324,7 +324,7 @@
     "tier": "UU"
   },
   "刺甲貝": {
-    "img": "091",
+    "img": 91,
     "name": "Cloyster",
     "types": ["Water", "Ice"],
     "baseStats": {
@@ -350,7 +350,7 @@
     "tier": "UU"
   },
   "耿鬼": {
-    "img": "094",
+    "img": 94,
     "name": "Gengar",
     "types": ["Ghost", "Poison"],
     "baseStats": {
@@ -376,7 +376,7 @@
     "tier": "UU"
   },
   "引夢獏人": {
-    "img": "097",
+    "img": 97,
     "name": "Hypno",
     "types": ["Psychic"],
     "baseStats": {
@@ -401,7 +401,7 @@
     "tier": "UU"
   },
   "頑皮雷彈": {
-    "img": "101",
+    "img": 101,
     "name": "Electrode",
     "types": ["Electric"],
     "gender": "N",
@@ -519,7 +519,7 @@
     "isNonstandard": "Unobtainable"
   },
   "肯泰羅-帕底亞-鬥戰": {
-    "img": 128,
+    "img": 10250,
     "name": "Tauros-Paldea",
     "baseSpecies": "Tauros",
     "forme": "Paldea",
@@ -545,7 +545,7 @@
     "tier": "UU"
   },
   "肯泰羅-帕底亞-火熾": {
-    "img": 128,
+    "img": 10251,
     "name": "Tauros-Paldea-Fire",
     "baseSpecies": "Tauros",
     "forme": "Paldea-Fire",
@@ -571,7 +571,7 @@
     "tier": "UU"
   },
   "肯泰羅-帕底亞-水瀾": {
-    "img": 128,
+    "img": 10252,
     "name": "Tauros-Paldea-Water",
     "baseSpecies": "Tauros",
     "forme": "Paldea-Water",
@@ -2504,7 +2504,7 @@
     "tier": "UU"
   },
   "洛托姆-變型": {
-    "img": "479-h",
+    "img": 10008,
     "name": "Rotom-Heat",
     "baseSpecies": "Rotom",
     "forme": "Heat",
@@ -3444,7 +3444,7 @@
     "tier": "UU"
   },
   "鬃岩狼人-黑夜": {
-    "img": "745-m",
+    "img": 10126,
     "name": "Lycanroc-Midnight",
     "baseSpecies": "Lycanroc",
     "forme": "Midnight",
@@ -3472,7 +3472,7 @@
     "tier": "UU"
   },
   "鬃岩狼人-黃昏": {
-    "img": "745-d",
+    "img": 10152,
     "name": "Lycanroc-Dusk",
     "baseSpecies": "Lycanroc",
     "forme": "Dusk",
@@ -4203,7 +4203,7 @@
     "tier": "UU"
   },
   "冰砌鵝-解凍": {
-    "img": "875-n",
+    "img": 10185,
     "name": "Eiscue-Noice",
     "baseSpecies": "Eiscue",
     "forme": "Noice",
@@ -4254,7 +4254,7 @@
     "tier": "UU"
   },
   "愛管侍-母": {
-    "img": "876-f",
+    "img": 10186,
     "name": "Indeedee-F",
     "baseSpecies": "Indeedee",
     "forme": "F",
@@ -4443,7 +4443,7 @@
     "tier": "UU"
   },
   "飄香豚-母": {
-    "img": "916-f",
+    "img": 10254,
     "name": "Oinkologne-F",
     "baseSpecies": "Oinkologne",
     "forme": "F",
@@ -5080,7 +5080,7 @@
     "tier": "Uber"
   },
   "海豚俠-全能": {
-    "img": "964-h",
+    "img": 10256,
     "name": "Palafin-Hero",
     "baseSpecies": "Palafin",
     "forme": "Hero",
