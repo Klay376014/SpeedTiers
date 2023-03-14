@@ -1,0 +1,84 @@
+<script setup>
+  import { ref, reactive, onMounted } from "vue";
+  import { usePokemonStore } from "../src/stores/pokemon";
+
+  const pms = usePokemonStore();
+  const src1 = `https://www.serebii.net/scarletviolet/pokemon/new/`;
+  const src2 = `.png`;
+
+  const extremeSpeed = (spe) => {
+    return Math.trunc((((spe * 2 + 31 + 63) * 50) / 100 + 5) * 1.1);
+  };
+  const fullSpeed = (spe) => {
+    return Math.trunc(((spe * 2 + 31 + 63) * 50) / 100 + 5);
+  };
+  const extremeSpeedScarf = (spe) => {
+    return Math.trunc(
+      Math.trunc((((spe * 2 + 31 + 63) * 50) / 100 + 5) * 1.1) * 1.5
+    );
+  };
+  const fullSpeedScarf = (spe) => {
+    return Math.trunc((((spe * 2 + 31 + 63) * 50) / 100 + 5) * 1.5);
+  };
+  const baseSpeed = (spe) => {
+    return Math.trunc(((spe * 2 + 31) * 50) / 100 + 5);
+  };
+  const slowestSpeed = (spe) => {
+    return Math.trunc(((spe * 2 * 50) / 100 + 5) * 0.9);
+  };
+</script>
+
+<template>
+  <div class="header">
+    <div class="describe">
+      <h1>寶可夢速線表(Regulation C規則)</h1>
+      <p class="">
+        術語說明（以下皆為50等數值）<br />
+        頂速︰252S+／滿速︰252S／無練速︰0S／底速︰0S、個體0、性格減速
+      </p>
+    </div>
+  </div>
+  <div class="content">
+    <table class="table table-dark table-sm align-middle table-bordered">
+      <thead>
+        <tr class="text-center">
+          <th class="w120">寶可夢</th>
+          <th>種族值</th>
+          <th>頂速</th>
+          <th>滿速</th>
+          <th class="mw120">頂速速圍</th>
+          <th class="mw120">滿速速圍</th>
+          <th>無練速</th>
+          <th>底速</th>
+        </tr>
+      </thead>
+      <tbody v-for="pm in pms.newList">
+        <tr class="text-center">
+          <td>
+            <img :src="src1 + pm[1].img + src2" alt="" height="40" width="40" />
+            <br />
+            {{ pm[0] }}
+          </td>
+          <td>{{ pm[1].baseStats.spe }}</td>
+          <td>{{ extremeSpeed(pm[1].baseStats.spe) }}</td>
+          <td>{{ fullSpeed(pm[1].baseStats.spe) }}</td>
+          <td>{{ extremeSpeedScarf(pm[1].baseStats.spe) }}</td>
+          <td>{{ fullSpeedScarf(pm[1].baseStats.spe) }}</td>
+          <td>{{ baseSpeed(pm[1].baseStats.spe) }}</td>
+          <td>{{ slowestSpeed(pm[1].baseStats.spe) }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="footer mt-2">
+    <div class="content">
+      <p>
+        朱紫傷害計算機︰<a href="https://klay376014.github.io/DamageCalculator/" target="__blank"
+          >點擊前往</a
+        >
+      </p>
+    </div>
+  </div>
+</template>
+
+<style></style>

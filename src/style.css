@@ -1,0 +1,44 @@
+body {
+  background-color: #121212;
+}
+.header {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #c963e2d0;
+  margin-top: 20px;
+}
+
+.header p {
+  font-weight: bold;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.describe {
+  text-align: center;
+}
+
+
+.table,
+.table-dark{
+  max-width: 800px;
+  color: rgb(252, 92, 92);
+  margin: 0 auto;
+}
+
+.w120{
+  width: 120px;
+}
+
+.mw120{
+  max-width: 120px;
+}
+
+.content p {
+  color: #c963e2d0;
+  font-size: 28px;
+  font-weight: bold;
+}
